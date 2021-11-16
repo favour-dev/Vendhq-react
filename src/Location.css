@@ -19,13 +19,16 @@
 }
 .middle-line{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    font-size: smaller;
+
 }
 .hide-mobile{
     display:none;
 }
 .box-content{
     margin-top: -60px;
+    font-size: smaller;
 }
 .star{
     width:10%;

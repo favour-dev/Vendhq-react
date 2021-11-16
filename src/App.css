@@ -2,4 +2,5 @@
 .app{
   font-family: 'Prata', serif;
   /* font-size: medium; */
+  overflow:hidden;
 }

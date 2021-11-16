@@ -340,7 +340,7 @@ const Ecommerce = () => (
             <div className='commerce-container'> 
                 <img src={shoe} className="shoe" alt="home" />
                 <img src={iphone} className=" phone" alt="home" />
-                <img src={ipad} className="ipad" alt="home" />
+                <img src={ipad} className="ipad-business" alt="home" />
                 <img src={mac} className="mac" alt="home" />
             </div>
             <div className='ecommerce-everywhere'>
@@ -386,8 +386,8 @@ const Expertadvice = () => (
         <div className='expert-container'>
             <div className='consultation'>
                 <h2>Award winning support. Expert advice to help you succeed.</h2>
-                <p>Our team of retail specialists is ready and waiting to get your business setup just right, and keep you growing from there. We're available by live chat, email and phone. Plus we offer personalised on-boarding packages for you and your team</p>
-                <button>Book a consultation</button><span><p>Or, call us now on +1-844-942-2...</p></span>
+                <p className='specialist'>Our team of retail specialists is ready and waiting to get your business setup just right, and keep you growing from there. We're available by live chat, email and phone. Plus we offer personalised on-boarding packages for you and your team</p>
+                <button className='book-consultation'>Book a consultation</button><span><p>Or, call us now on +1-844-942-2...</p></span>
             </div>
             <div>
                 <img src={expert} className="expertimage" alt="home" />

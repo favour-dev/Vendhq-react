@@ -143,7 +143,7 @@
     padding-top:100px;
 
 }
-.ipad{
+.ipad-business{
     width:30%;
 
 }
@@ -159,7 +159,7 @@
 .ecommerce-everywhere{
     margin: 40px 0;
 }
-.ecommerce-everywhere p,.consultation p,.gas-logo{
+.ecommerce-everywhere p,.specialist,.gas-logo{
     padding: 10px 0;
     margin: 0 auto;
     max-width:80%;
@@ -410,14 +410,18 @@
         justify-content: center;
         align-items: center;
     }
+    .book-consultation{
+        width:40%;
+        margin: 20px 0;
+    }
     .shoe{
         width:20%;
         padding-top:250px;
     
     }
-    .ipad{
+    .ipad-business{
         width:30%;
-    
+        padding-top:140px;
     }
     .mac{
         width: 50%;

@@ -1,0 +1,27 @@
+ {
+     "items":[
+        {
+            "id":0,
+            "star":"star.png",
+            "name":"Best POS hand down"
+        },
+        {
+            "id":1,
+            "star":"star.png",
+            "name":"A Breath of fresh air"
+        },
+        {
+            "id":2,
+            "star":"star.png",
+            "name":"Their customer service is amazing"
+        },
+        {
+            "id":3,
+            "star":"star.png",
+            "name":"Vend is a game chager"
+        }
+
+    ]
+}
+
+

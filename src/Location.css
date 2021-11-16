@@ -1,0 +1,432 @@
+
+.customer{
+    text-align: center;
+    padding: 0px 16px;
+}
+.timeline-wrapper {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+}
+.timeline-wrapper .middle-line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #d9d9d9;
+}
+.middle-line{
+    display:flex;
+    justify-content:space-around;
+}
+.hide-mobile{
+    display:none;
+}
+.box-content{
+    margin-top: -60px;
+}
+.star{
+    width:10%;
+}
+.content-two{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.side-macbook{
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(20%, 70%);
+}
+.ipad {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    transform: translate(10%, 25%);
+    top: 0;
+    left: 0;
+}
+.ipad-video{
+    width: 40%;
+    position: relative;
+    transform: translate(90%, -80%);
+    z-index: 4;
+}
+.pos-hand {
+    width: 60%;
+    position: relative;
+    /* transform: translate(67%, -140%); */
+    z-index: 6;
+}
+.yellow{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin: 20px 0;
+    /* gap: 10px; */
+}
+.yellowshop{
+    width:100%;
+}
+.yellow-left-container p{
+    text-align: left;
+    /* padding: 0 50px; */
+    width: 70%;
+    margin: 0 auto;
+    display:flex;
+    /* justify-content:center;
+    align-items: center; */
+}
+.yellowlogo{
+    width: 20%;
+}
+.logolink{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+}
+.mobile{
+    display:none;
+}
+.yellow-desktop{
+    display:none;
+}
+.yellow-left-container{
+    display: flex;
+}
+.inventory{
+    background-color:#D7ECFB;
+}
+.inventory-container,.expert-container{
+    text-align: center;
+    padding:10px 16px;
+}
+.scanner{
+    width: 40%;
+}
+.scanner2,.macbook2{
+    display:none;
+}
+.multioutlet{
+    background-color: #566161;
+    padding: 20px 0;
+}
+.multioutlet-container{
+    margin: 0 16px;
+    text-align: center;
+}
+.report{
+    background-color: #B8E9B4;
+    padding:20px 0;
+}
+.report-image{
+    padding: 20px 0;
+}
+.ecommerce{
+    background-color: #EAF2F9;
+}
+.commerce-container{
+    display: flex;
+}
+.commerce{
+    width:25%;
+}
+.shoe{
+    width:20%;
+    padding-top:100px;
+
+}
+.ipad{
+    width:30%;
+
+}
+.mac{
+    width: 40%;
+    padding-top:65px;
+}
+.phone{
+    width: 10%;
+    padding-top:80px;
+
+}
+.ecommerce-everywhere{
+    margin: 40px 0;
+}
+.ecommerce-everywhere p,.consultation p,.gas-logo{
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width:80%;
+}
+.commerce-icons{
+    padding: 10px 0;
+}
+.shopify,.big,.woo{
+    width:20%;
+}
+.expert{
+    background-color: rgb(184,233,180);
+}
+.expertimage{
+    display:none;
+}
+.check{
+    width: 10%;
+}
+.item1{
+    display:flex;
+    flex-direction: row;
+}
+.vendbusiness{
+    background-color: #FBDADF;
+}
+.Gas{
+    display:none;
+}
+.review1{
+    background-color: #EBF5E9;
+    padding: 10px 0;
+    margin:10px 0;
+}
+.padding{
+    padding: 10px 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left{
+    background-color: #EBF5E9;
+    padding: 20px;
+}
+.right{
+    background-color:#EBF2F8;
+    padding: 20px;
+}
+.demo{
+    display:none;
+}
+@media (min-width: 768px) {
+    
+    .general-margin{
+        margin: 50px 0;
+    }
+    .pos p, .customer p{
+        width:60%;
+        margin: 0 auto;
+    }
+    .mobile{
+        display:block;
+    }
+    .yellow-container{
+        margin:0 auto;
+        max-width:80%;
+    }
+    .yellowshop{
+        width:100%;
+    }
+    .yellow-left-container p{
+        width: 80%;
+        margin: 0 auto;
+        display:flex;
+        /* justify-content:center;
+        align-items: center; */
+    }
+    .yellowlogo{
+        width: 20%;
+    }
+    .logolink{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        gap: 10px;
+        width: 70%;
+        margin: 0 auto;
+        /* margin-top: -80px; */
+        /* padding: 0 50px; */
+    }
+    a{
+        color:#008CCA;
+    }
+    .inventory-container,.expert-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .macbook,.scanner{
+        display:none;
+    }
+    .scanner2,.macbook2{
+        display: block;
+        width: 30%;
+    }
+    .power-inventory{
+        display:flex;
+    }
+    .power{
+        display: flex;
+        flex-direction:column;
+        text-align: left !important;
+    }
+    .macbook2{
+        width: 50%;
+    }
+    .multioutlet-container{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .reporting{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .reportimage{
+        width: 400px;
+        margin-bottom:-140px;
+    }
+    .trust-items{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    .expertimage{
+        display:block;
+    }
+    .expert-container{
+        display:flex;
+        flex-direction: row
+    }
+    .Gas{
+        display:block;
+    }
+    .gas-container{
+        display: flex;
+    }
+    .gas-logo{
+        display:flex;
+    }
+    .gaslogo,.choicelogo{
+        width: 20%;
+    }
+    .gas-text p{
+        
+        width: 80%;
+        text-align:left;
+    }
+    .demo{
+        display: block;
+        position:relative;
+    }
+    .bottom-text{
+        position: absolute;
+        text-align: center;
+        bottom: 10px;
+        left:150px;
+        width:80%;
+        margin: 0 auto;
+    }
+    .the-review{
+        display:grid;
+        grid-template-columns: auto auto;
+        gap:20px;
+    }
+    .contact{
+        display:flex;
+        flex-direction: row;
+    }
+    .content-two{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+@media (min-width:1151px) {
+    .box-content{
+        margin-top: -80px;
+    }
+    .hide-mobile{
+        display:block;
+    }
+    .yellow-desktop{
+        display:block;
+    }
+    .yellowlogo-desktop{
+        width: 30%;
+        padding: 10px 0;
+    }
+    .yellow-left-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center
+    }
+    .yellow-desktop{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .logolink{
+        display: none;
+    }
+    .yellowshop{
+        width:60%;
+    }
+    .yellow-left-container  p{
+        width: 50%;
+        margin: 0 auto;
+        display:flex;
+        /* justify-content:center;
+        align-items: center; */
+    }
+    .macbook2{
+        width: 40%;
+    }
+    .multioutlet-container p {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .reportimage{
+        width: 600px;
+        margin-bottom:-140px;
+    }
+    .report{
+        margin-bottom: 120px;
+    }
+    .consultation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shoe{
+        width:20%;
+        padding-top:250px;
+    
+    }
+    .ipad{
+        width:30%;
+    
+    }
+    .mac{
+        width: 50%;
+        padding-top:65px;
+    }
+    .phone{
+        width: 10%;
+        padding-top:180px;
+    
+    }
+    
+}
